@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: yfy57320
+    url: jdbc:mysql://localhost:3306/paint?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  type-aliases-package: com.paint.demo.pojo
+  mapper-locations: classpath:mapper/*.xml
