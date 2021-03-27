@@ -1,8 +1,8 @@
 spring:
   datasource:
     username: root
-    password: yfy57320
-    url: jdbc:mysql://localhost:3306/paint?useUnicode=true&amp
+    password: yfy57609
+    url: jdbc:mysql://1.15.57.103:3306/paint?useUnicode=true&amp
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
