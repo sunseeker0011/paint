@@ -12,4 +12,6 @@ public interface inviteDao {
     List<Invite> selectInvitationAll();
 
     Invite insert(Invite invite);
+
+    Invite update(int state);
 }

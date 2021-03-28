@@ -11,4 +11,9 @@
         insert into invite(id,orderId,printerId,state)
         value(#{id,jdbcType=INTEGER},#{orderId,jdbcType=INTEGER},#{printerId,jdbcType=INTEGER},1)
     </insert>
+    <update id="update" parameterType="com.paint.demo.pojo.Invite">
+        update apply
+        set state=2
+        where state=1
+    </update>
 </mapper>

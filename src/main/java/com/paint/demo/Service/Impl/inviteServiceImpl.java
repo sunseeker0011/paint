@@ -37,7 +37,9 @@ public class inviteServiceImpl implements inviteService {
     /*企划邀请界面更新*/
     @Override
     public Invite update(int id, int state) {
-        return null;
+        Invite invite=new Invite();
+        invite=inviteDao.update(state);
+        return invite;
     }
 
     /*收到邀请，数据库加入新数据*/
